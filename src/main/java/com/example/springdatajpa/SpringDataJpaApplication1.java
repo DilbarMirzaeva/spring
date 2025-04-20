@@ -1,17 +1,13 @@
 package com.example.springdatajpa;
 
-import com.example.springdatajpa.entity.Student;
-import com.example.springdatajpa.repository.StudentRepository;
-import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.Bean;
 
 @SpringBootApplication
-public class SpringDataJpaApplication {
+public class SpringDataJpaApplication1 {
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringDataJpaApplication.class, args);
+        SpringApplication.run(SpringDataJpaApplication1.class, args);
     }
 
 //    @Bean
