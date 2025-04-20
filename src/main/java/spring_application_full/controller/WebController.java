@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.*;
 import spring_application_full.model.Student;
 import spring_application_full.service.StudentService;
 
-@Controller("/api/v2")
+@Controller
 @RequiredArgsConstructor
 public class WebController {
     private final StudentService studentService;

@@ -40,8 +40,7 @@ public class StudentRepository {
         String query="SELECT * FROM students WHERE id=?";
         try{
             return  jdbcTemplate.queryForObject(query,(rs,rowNum)->
-                    new Student(id,rs.getString("name"))
-            );
+                    new Student(id,rs.getString("name")),id);
         }catch (EmptyResultDataAccessException e){
             return null;
         }
