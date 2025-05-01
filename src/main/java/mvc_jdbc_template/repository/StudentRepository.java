@@ -1,10 +1,10 @@
-package spring_application_full.repository;
+package mvc_jdbc_template.repository;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Repository;
-import spring_application_full.model.Student;
+import mvc_jdbc_template.model.Student;
 
 import java.util.List;
 

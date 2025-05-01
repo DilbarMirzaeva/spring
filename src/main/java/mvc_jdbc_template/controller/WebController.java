@@ -1,11 +1,11 @@
-package spring_application_full.controller;
+package mvc_jdbc_template.controller;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
-import spring_application_full.model.Student;
-import spring_application_full.service.StudentService;
+import mvc_jdbc_template.model.Student;
+import mvc_jdbc_template.service.StudentService;
 
 @Controller
 @RequiredArgsConstructor

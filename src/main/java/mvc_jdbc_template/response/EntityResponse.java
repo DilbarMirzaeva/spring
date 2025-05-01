@@ -1,4 +1,4 @@
-package spring_application_full.response;
+package mvc_jdbc_template.response;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Getter;

@@ -1,6 +1,5 @@
-package spring_application_full;
+package mvc_jdbc_template;
 
-import com.example.springdatajpa.SpringDataJpaApplication1;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 

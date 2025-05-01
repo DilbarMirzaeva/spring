@@ -1,4 +1,4 @@
-package spring_application_full.model;
+package mvc_jdbc_template.model;
 
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;

@@ -1,4 +1,4 @@
-package spring_application_full.config;
+package mvc_jdbc_template.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

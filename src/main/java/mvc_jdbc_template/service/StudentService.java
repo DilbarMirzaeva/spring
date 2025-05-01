@@ -1,10 +1,10 @@
-package spring_application_full.service;
+package mvc_jdbc_template.service;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
-import spring_application_full.exceptions.StudentNotFoundException;
-import spring_application_full.model.Student;
-import spring_application_full.repository.StudentRepository;
+import mvc_jdbc_template.exceptions.StudentNotFoundException;
+import mvc_jdbc_template.model.Student;
+import mvc_jdbc_template.repository.StudentRepository;
 
 import java.util.List;
 

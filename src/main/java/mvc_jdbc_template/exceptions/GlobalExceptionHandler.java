@@ -1,10 +1,10 @@
-package spring_application_full.exceptions;
+package mvc_jdbc_template.exceptions;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
-import spring_application_full.response.EntityResponse;
+import mvc_jdbc_template.response.EntityResponse;
 
 @ControllerAdvice
 public class GlobalExceptionHandler {
